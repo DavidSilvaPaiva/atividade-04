@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Exercício da tabela dinâmica </title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="tab tab-1">
+            <h1>Números da Mega Sena</h1>
+            <table id="table" border="1">
+                <tr>
+                    <th>1º</th>
+                    <th>2º</th>
+                    <th>3º</th>
+                    <th>4º</th>
+                    <th>5º</th>
+                    <th>6º</th>
+                    <th id="X">X</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="tab tab-2">
+            Quantidade:<input type="number" id="quantidade">
+            <button onclick="addHtmlTableRow()">Adicionar</button>
+        </div>
+    </div>
+</body>
+<script src="js/table.js"></script>
+
+</html>
